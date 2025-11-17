@@ -1,7 +1,7 @@
 venv/
 __pycache__/
 *.pyc
-TESSERACT.ics
+tesseract-assets/
 .DS_Store
 .env
 .pytest_cache/
