@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-def two_sum(nums: List[int], target: int) -> Optional[List[int]]:
+def two_sum(nums: List[int], target: int):
     seen = {}
     for i, num in enumerate(nums):
         need = target - num
