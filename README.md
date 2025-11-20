@@ -57,3 +57,12 @@ python3 create_and_organize_issues.py bshridhar tesseract-study Tesseract.ics --
 - Create a branch `feat/<short>` when you start working
 - Open PR, link the issue, and request review
 - Merge once CI passes and close the issue
+
+## Shift start dates
+How to use for your two calendars
+
+1. Back up your originals (just in case).
+2. Run for Tesseract Labs:
+Command: python3 adjust_ics_start_date.py --input "Tesseract Labs_42f4e74c....ics" --output "Tesseract Labs_shifted.ics" --new-start 2025-11-17
+3. Run for Tesseract Podcasts:
+Command: python3 adjust_ics_start_date.py --input "Tesseract Podcasts_c71209....ics" --output "Tesseract Podcasts_shifted.ics" --new-start 2025-11-18
