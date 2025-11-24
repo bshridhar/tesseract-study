@@ -1,0 +1,45 @@
+name: Auto-merge PRs opened by owner
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-merge if author is bshridhar
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              core.info("No pull_request payload found, exiting.");
+              return;
+            }
+            const author = pr.user && pr.user.login;
+            if (author !== 'bshridhar') {
+              core.info(`PR author ${author} is not authorized for auto-merge`);
+              return;
+            }
+            if (pr.draft) {
+              core.info("PR is a draft; skipping auto-merge.");
+              return;
+            }
+            // Attempt to merge. This will fail if branch protection requires status checks/reviews that aren't met.
+            try {
+              await github.rest.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr.number,
+                merge_method: 'merge' // change to 'squash' or 'rebase' as you prefer
+              });
+              core.info(`Merged PR #${pr.number} opened by ${author}`);
+            } catch (err) {
+              core.info(`Merge attempt failed: ${err.message}`);
+              throw err;
+            }

@@ -1,0 +1,13 @@
+# Development dependencies
+pytest==7.4.0
+black==23.3.0
+flake8==6.0.0
+mypy==1.3.0
+
+# Include production dependencies
+-r requirements.txt
+
+# Additional useful dev tools
+pytest-cov==4.1.0  # Code coverage
+ipython==8.14.0    # Better Python shell
+pre-commit==3.3.3  # Git hooks for quality checks

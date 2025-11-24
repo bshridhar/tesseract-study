@@ -1,19 +1,96 @@
 # Tesseract Study — FastAPI + Algorithms
 
-This repository tracks a 6‑month study plan (FastAPI, Python fundamentals, LeetCode) and contains:
-- A FastAPI starter app in `app/`
-- LeetCode solutions in `problems/` organized by topic and date
-- Tests in `tests/` run by GitHub Actions CI
-- Study plan and weekly retrospectives in `STUDY_PLAN.md` and `docs/`
-- Calendar file `TESSERACT.ics` (optional) you can import into Google Calendar
+This repository tracks a 6‑month study plan (FastAPI, Python fundamentals, LeetCode).
 
-How to run locally
-1. python -m venv venv && source venv/bin/activate
-2. pip install -r requirements.txt
-3. uvicorn app.main:app --reload --port 8000
+## 📁 Repository Structure
 
-Testing
-- pytest
+```
+tesseract-study/
+├── app/                    # Main FastAPI application
+│   ├── __init__.py
+│   ├── main.py            # App entry point
+│   ├── algorithms.py      # LeetCode implementations
+│   └── schemas.py         # Pydantic models
+├── tests/                 # Test suite
+├── issues/                # LeetCode problem tracking
+├── tesseract-assets/      # Scripts, calendars, notes, templates
+│   ├── *.ics             # Calendar files
+│   ├── *.py              # Utility scripts
+│   ├── *.sh              # Shell scripts
+│   └── README.md         # Asset documentation
+├── projects/              # Example FastAPI/mini projects
+│   └── README.md         # Project guidelines
+├── docs/                  # ADRs, one-pagers, study notes
+│   ├── adr/              # Architecture Decision Records
+│   ├── one-pagers/       # Technical deep-dives
+│   ├── notes/            # Weekly notes & retrospectives
+│   └── README.md         # Documentation guide
+├── requirements.txt       # Production dependencies
+├── requirements-dev.txt   # Development dependencies
+└── README.md             # This file
+```
+
+## Local Development Setup
+
+### Prerequisites
+- **Python 3.9+** (Python 3.10+ recommended)
+- **pip & virtualenv** 
+- **Docker & docker-compose** (for containerized deployment)
+- **Git & GitHub CLI (gh)** (for version control and issue management)
+
+### Initial Setup
+
+1. **Create and activate virtual environment:**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. **Install development dependencies:**
+   ```bash
+   pip install -r requirements-dev.txt
+   ```
+   
+   This includes:
+   - `pytest` - Testing framework
+   - `black` - Code formatter
+   - `flake8` - Linter
+   - `mypy` - Static type checker
+   - `pytest-cov` - Code coverage
+   - `ipython` - Enhanced Python shell
+   - `pre-commit` - Git hooks for quality checks
+
+3. **Run the FastAPI application:**
+   ```bash
+   uvicorn app.main:app --reload --port 8000
+   ```
+
+### Development Workflow
+
+**Code Quality Tools:**
+```bash
+# Format code with black
+black .
+
+# Check code style with flake8
+flake8 app/ tests/
+
+# Type check with mypy
+mypy app/
+
+# Run tests
+pytest
+
+# Run tests with coverage
+pytest --cov=app --cov-report=html
+```
+
+**Testing:**
+```bash
+pytest                    # Run all tests
+pytest tests/test_two_sum.py  # Run specific test file
+pytest -v                 # Verbose output
+```
 
 ## Populating Issues from Calendar
 
