@@ -1,0 +1,1449 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tesseract Study Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Tesseract
+X-WR-TIMEZONE:Asia/Kolkata
+
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+END:STANDARD
+END:VTIMEZONE
+
+# Timestamp for creation
+DTSTAMP:20251029T115350Z
+
+### Explicit events from 2025-11-03 through 2026-04-29 (178 VEVENTs)
+### Weekdays (Mon–Fri) 21:00–22:00 IST; Weekends (Sat & Sun) 10:00–12:00 IST
+
+BEGIN:VEVENT
+UID:tesseract-20251103@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251103T210000
+DTEND;TZID=Asia/Kolkata:20251103T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python). Start: Two Sum https://leetcode.com/problems/two-sum/; FastAPI quickstart: https://fastapi.tiangolo.com/tutorial/; Automate the Boring Stuff: https://automatetheboringstuff.com/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251104@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251104T210000
+DTEND;TZID=Asia/Kolkata:20251104T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python). Problem: Valid Anagram https://leetcode.com/problems/valid-anagram/; FastAPI Pydantic: https://fastapi.tiangolo.com/tutorial/body/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251105@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251105T210000
+DTEND;TZID=Asia/Kolkata:20251105T220000
+DESCRIPTION:LeetCode + FastAPI + Python study. Problem: Intersection of Two Arrays https://leetcode.com/problems/intersection-of-two-arrays/; FastAPI validation: https://fastapi.tiangolo.com/tutorial/response-model/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251106@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251106T210000
+DTEND;TZID=Asia/Kolkata:20251106T220000
+DESCRIPTION:LeetCode + FastAPI + Python study. Problem: Contains Duplicate https://leetcode.com/problems/contains-duplicate/; FastAPI path/query params: https://fastapi.tiangolo.com/tutorial/path-params/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251107@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251107T210000
+DTEND;TZID=Asia/Kolkata:20251107T220000
+DESCRIPTION:LeetCode + FastAPI + Python study. Problem: Move Zeroes https://leetcode.com/problems/move-zeroes/; FastAPI testing: https://fastapi.tiangolo.com/tutorial/testing/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251108@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251108T100000
+DTEND;TZID=Asia/Kolkata:20251108T120000
+DESCRIPTION:Weekend deep: implement FastAPI endpoints, add Pydantic models, tests; solve 2-3 LeetCode problems; dockerize local container; push to GitHub.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251109@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251109T100000
+DTEND;TZID=Asia/Kolkata:20251109T120000
+DESCRIPTION:Weekend deep: polish docs/CI/deploy, system-design one-pager, Python fundamentals practice.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251110@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251110T210000
+DTEND;TZID=Asia/Kolkata:20251110T220000
+DESCRIPTION:Problem: Two Sum II (Input array is sorted) https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/; FastAPI response_model docs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251111@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251111T210000
+DTEND;TZID=Asia/Kolkata:20251111T220000
+DESCRIPTION:Problem: Remove Duplicates from Sorted Array https://leetcode.com/problems/remove-duplicates-from-sorted-array/; FastAPI dependencies.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251112@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251112T210000
+DTEND;TZID=Asia/Kolkata:20251112T220000
+DESCRIPTION:Problem: Valid Palindrome https://leetcode.com/problems/valid-palindrome/; FastAPI background tasks.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251113@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251113T210000
+DTEND;TZID=Asia/Kolkata:20251113T220000
+DESCRIPTION:Problem: Reverse String https://leetcode.com/problems/reverse-string/; FastAPI logging & error handling.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251114@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251114T210000
+DTEND;TZID=Asia/Kolkata:20251114T220000
+DESCRIPTION:Problem: Best Time to Buy and Sell Stock (easy) https://leetcode.com/problems/best-time-to-buy-and-sell-stock/; FastAPI health & metrics.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251115@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251115T100000
+DTEND;TZID=Asia/Kolkata:20251115T120000
+DESCRIPTION:Weekend deep: sliding-window practice, add endpoint + tests, refactor code.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251116@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251116T100000
+DTEND;TZID=Asia/Kolkata:20251116T120000
+DESCRIPTION:Weekend deep: start Tasks CRUD skeleton, add README and CI starter, push to GitHub.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251117@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251117T210000
+DTEND;TZID=Asia/Kolkata:20251117T220000
+DESCRIPTION:Problem: Reverse Linked List https://leetcode.com/problems/reverse-linked-list/; FastAPI file uploads.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251118@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251118T210000
+DTEND;TZID=Asia/Kolkata:20251118T220000
+DESCRIPTION:Problem: Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/; FastAPI async endpoints.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251119@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251119T210000
+DTEND;TZID=Asia/Kolkata:20251119T220000
+DESCRIPTION:Problem: Linked List Cycle https://leetcode.com/problems/linked-list-cycle/; FastAPI dependencies for DB/auth.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251120@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251120T210000
+DTEND;TZID=Asia/Kolkata:20251120T220000
+DESCRIPTION:Problem: Remove Nth Node From End https://leetcode.com/problems/remove-nth-node-from-end-of-list/; FastAPI DB intro (SQLModel/SQLAlchemy).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251121@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251121T210000
+DTEND;TZID=Asia/Kolkata:20251121T220000
+DESCRIPTION:Problem: Palindrome Linked List https://leetcode.com/problems/palindrome-linked-list/; DB migrations concept (alembic) note.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251122@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251122T100000
+DTEND;TZID=Asia/Kolkata:20251122T120000
+DESCRIPTION:Weekend deep: implement Tasks CRUD with SQLModel/SQLite locally; tests & pytest.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251123@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251123T100000
+DTEND;TZID=Asia/Kolkata:20251123T120000
+DESCRIPTION:Weekend deep: push CRUD microservice to GitHub; draft 'Tasks service architecture' one-pager.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251124@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251124T210000
+DTEND;TZID=Asia/Kolkata:20251124T220000
+DESCRIPTION:Problem: Valid Parentheses https://leetcode.com/problems/valid-parentheses/; FastAPI JWT auth intro plan.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251125@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251125T210000
+DTEND;TZID=Asia/Kolkata:20251125T220000
+DESCRIPTION:Problem: Min Stack https://leetcode.com/problems/min-stack/; protect endpoints using dependencies + JWT.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251126@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251126T210000
+DTEND;TZID=Asia/Kolkata:20251126T220000
+DESCRIPTION:Problem: Implement Queue using Stacks https://leetcode.com/problems/implement-queue-using-stacks/; FastAPI caching intro.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251127@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251127T210000
+DTEND;TZID=Asia/Kolkata:20251127T220000
+DESCRIPTION:Problem: Fibonacci Number https://leetcode.com/problems/fibonacci-number/; FastAPI background tasks & memoization practice.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251128@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251128T210000
+DTEND;TZID=Asia/Kolkata:20251128T220000
+DESCRIPTION:Timed LeetCode practice + add GitHub Actions CI to run pytest; push fixes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251129@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251129T100000
+DTEND;TZID=Asia/Kolkata:20251129T120000
+DESCRIPTION:Weekend deep: stacks/queues problems; prototype in-memory caching for read endpoints.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251130@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251130T100000
+DTEND;TZID=Asia/Kolkata:20251130T120000
+DESCRIPTION:Weekend deep: polish modules & write 'What I learned this week' README entry.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251201@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251201T210000
+DTEND;TZID=Asia/Kolkata:20251201T220000
+DESCRIPTION:Problem: Maximum Depth of Binary Tree https://leetcode.com/problems/maximum-depth-of-binary-tree/; FastAPI file uploads & processing idea.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251202@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251202T210000
+DTEND;TZID=Asia/Kolkata:20251202T220000
+DESCRIPTION:Problem: Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/; async DB calls in FastAPI.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251203@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251203T210000
+DTEND;TZID=Asia/Kolkata:20251203T220000
+DESCRIPTION:Problem: Symmetric Tree https://leetcode.com/problems/symmetric-tree/; streaming responses & large payload handling.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251204@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251204T210000
+DTEND;TZID=Asia/Kolkata:20251204T220000
+DESCRIPTION:Problem: Same Tree https://leetcode.com/problems/same-tree/; error handling & retries in FastAPI.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251205@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251205T210000
+DTEND;TZID=Asia/Kolkata:20251205T220000
+DESCRIPTION:Problem: Path Sum https://leetcode.com/problems/path-sum/; design read-heavy endpoints with caching & pagination.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251206@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251206T100000
+DTEND;TZID=Asia/Kolkata:20251206T120000
+DESCRIPTION:Weekend deep: tree problems; add caching to Tasks read endpoints; profile endpoints.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251207@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251207T100000
+DTEND;TZID=Asia/Kolkata:20251207T120000
+DESCRIPTION:Weekend deep: push traversal utilities; draft one-pager 'Design a scalable read-heavy service'; add /metrics and /health endpoints.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251208@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251208T210000
+DTEND;TZID=Asia/Kolkata:20251208T220000
+DESCRIPTION:Problem: Sort an Array https://leetcode.com/problems/sort-an-array/; DB indexing basics & query optimization notes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251209@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251209T210000
+DTEND;TZID=Asia/Kolkata:20251209T220000
+DESCRIPTION:Problem: Binary Search https://leetcode.com/problems/binary-search/; implement pagination & cursor patterns in FastAPI.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251210@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251210T210000
+DTEND;TZID=Asia/Kolkata:20251210T220000
+DESCRIPTION:Problem: Search Insert Position https://leetcode.com/problems/search-insert-position/; rate limiting overview & middleware prototype.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251211@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251211T210000
+DTEND;TZID=Asia/Kolkata:20251211T220000
+DESCRIPTION:Problem: Sort Colors https://leetcode.com/problems/sort-colors/; messaging & background processing intro (Redis/RabbitMQ).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251212@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251212T210000
+DTEND;TZID=Asia/Kolkata:20251212T220000
+DESCRIPTION:Timed LeetCode practice + FastAPI codebase review & TODOs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251213@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251213T100000
+DTEND;TZID=Asia/Kolkata:20251213T120000
+DESCRIPTION:Weekend deep: sort/search problems; prepare Docker image & env for deployment.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251214@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251214T100000
+DTEND;TZID=Asia/Kolkata:20251214T120000
+DESCRIPTION:Weekend deep: deploy to Render/Heroku; create system-design one-pager and add deployed URL to README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251215@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251215T210000
+DTEND;TZID=Asia/Kolkata:20251215T220000
+DESCRIPTION:Medium: two-pointers practice; FastAPI background jobs pattern notes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251216@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251216T210000
+DTEND;TZID=Asia/Kolkata:20251216T220000
+DESCRIPTION:Medium LeetCode problem; FastAPI observability (logging/metrics) and tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251217@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251217T210000
+DTEND;TZID=Asia/Kolkata:20251217T220000
+DESCRIPTION:Medium LeetCode problem; FastAPI security basics & input sanitization tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251218@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251218T210000
+DTEND;TZID=Asia/Kolkata:20251218T220000
+DESCRIPTION:Medium LeetCode problem; FastAPI design for scale (stateless services, session handling).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251219@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251219T210000
+DTEND;TZID=Asia/Kolkata:20251219T220000
+DESCRIPTION:Timed LeetCode practice; FastAPI CI/CD notes & fixes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251220@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251220T100000
+DTEND;TZID=Asia/Kolkata:20251220T120000
+DESCRIPTION:System design case study (URL shortener/image service) + FastAPI async processing prototype.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251221@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251221T100000
+DTEND;TZID=Asia/Kolkata:20251221T120000
+DESCRIPTION:Polish GitHub README & deployed link; create LinkedIn post describing project.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251222@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251222T210000
+DTEND;TZID=Asia/Kolkata:20251222T220000
+DESCRIPTION:Review weak LeetCode topics; FastAPI WebSocket basics (optional).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251223@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251223T210000
+DTEND;TZID=Asia/Kolkata:20251223T220000
+DESCRIPTION:Medium problem; FastAPI DB sharding & replication notes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251224@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251224T210000
+DTEND;TZID=Asia/Kolkata:20251224T220000
+DESCRIPTION:Medium problem; caching & invalidation strategies; implement TTL helper.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251225@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251225T210000
+DTEND;TZID=Asia/Kolkata:20251225T220000
+DESCRIPTION:Medium problem; observability review (logs/metrics/tracing).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251227@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20251227T100000
+DTEND;TZID=Asia/Kolkata:20251227T120000
+DESCRIPTION:Prepare system design one-pager; finalize FastAPI project features for portfolio.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251228@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20251228T100000
+DTEND;TZID=Asia/Kolkata:20251228T120000
+DESCRIPTION:Mock system design interview; apply to targeted roles and plan next week.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251229@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251229T210000
+DTEND;TZID=Asia/Kolkata:20251229T220000
+DESCRIPTION:Medium LeetCode; review auth & security (JWT flows, token rotation).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251230@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251230T210000
+DTEND;TZID=Asia/Kolkata:20251230T220000
+DESCRIPTION:Medium LeetCode; review async patterns & tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20251231@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20251231T210000
+DTEND;TZID=Asia/Kolkata:20251231T220000
+DESCRIPTION:Medium LeetCode; resiliency patterns (retry, circuit breaker).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260101@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260101T210000
+DTEND;TZID=Asia/Kolkata:20260101T220000
+DESCRIPTION:Recap month; update README and list improvements; LeetCode timed practice.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260103@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260103T100000
+DTEND;TZID=Asia/Kolkata:20260103T120000
+DESCRIPTION:Docker Compose for multi-service local setup (FastAPI + Redis + Postgres); optional k8s intro.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260104@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260104T100000
+DTEND;TZID=Asia/Kolkata:20260104T120000
+DESCRIPTION:Polish projects & READMEs; mock interview (system design + coding).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260105@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260105T210000
+DTEND;TZID=Asia/Kolkata:20260105T220000
+DESCRIPTION:Medium LeetCode; FastAPI scaling notes (load balancing, autoscaling).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260106@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260106T210000
+DTEND;TZID=Asia/Kolkata:20260106T220000
+DESCRIPTION:Medium LeetCode; refine logging/metrics & add trace/log context.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260107@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260107T210000
+DTEND;TZID=Asia/Kolkata:20260107T220000
+DESCRIPTION:Medium LeetCode; prepare 3 one-pagers (URL shortener, Tasks, Notification).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260108@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260108T210000
+DTEND;TZID=Asia/Kolkata:20260108T220000
+DESCRIPTION:Timed LeetCode; finalize CI to run tests & optionally publish Docker image.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260110@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260110T100000
+DTEND;TZID=Asia/Kolkata:20260110T120000
+DESCRIPTION:Ensure services deployed (Render/Heroku); practice presenting system-design one-pager; mock coding interview.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260111@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260111T100000
+DTEND;TZID=Asia/Kolkata:20260111T120000
+DESCRIPTION:Apply to roles; mock interviews; update portfolio based on feedback.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260112@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260112T210000
+DTEND;TZID=Asia/Kolkata:20260112T220000
+DESCRIPTION:Review weak areas; FastAPI security & secrets management.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260113@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260113T210000
+DTEND;TZID=Asia/Kolkata:20260113T220000
+DESCRIPTION:Medium LeetCode; read CAP theorem & replication basics (System Design Primer).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260114@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260114T210000
+DTEND;TZID=Asia/Kolkata:20260114T220000
+DESCRIPTION:Medium LeetCode; prepare STAR stories and architecture decisions notes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260115@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260115T210000
+DTEND;TZID=Asia/Kolkata:20260115T220000
+DESCRIPTION:Recap week; LeetCode timed practice; list polish items.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260117@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260117T100000
+DTEND;TZID=Asia/Kolkata:20260117T120000
+DESCRIPTION:Two mock interviews (coding + system design); revise one-pagers; update README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260118@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260118T100000
+DTEND;TZID=Asia/Kolkata:20260118T120000
+DESCRIPTION:Network outreach; apply to roles; plan next topics.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260119@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260119T210000
+DTEND;TZID=Asia/Kolkata:20260119T220000
+DESCRIPTION:Review Two Sum variations; finalize JWT auth & refresh token tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260120@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260120T210000
+DTEND;TZID=Asia/Kolkata:20260120T220000
+DESCRIPTION:Medium LeetCode; review async patterns & async unit tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260121@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260121T210000
+DTEND;TZID=Asia/Kolkata:20260121T220000
+DESCRIPTION:Medium LeetCode; refine metrics/logging & health checks.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260122@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260122T210000
+DTEND;TZID=Asia/Kolkata:20260122T220000
+DESCRIPTION:Medium LeetCode; finalize caching strategy & TTL tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260124@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260124T100000
+DTEND;TZID=Asia/Kolkata:20260124T120000
+DESCRIPTION:Finalize 3 one-pagers; record 10-minute demo of FastAPI project; polish README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260125@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260125T100000
+DTEND;TZID=Asia/Kolkata:20260125T120000
+DESCRIPTION:Apply to roles; mock interviews via interviewing.io or peers; update portfolio.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260126@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260126T210000
+DTEND;TZID=Asia/Kolkata:20260126T220000
+DESCRIPTION:Review weak topics; FastAPI security audit checklist; fix security tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260127@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260127T210000
+DTEND;TZID=Asia/Kolkata:20260127T220000
+DESCRIPTION:Medium LeetCode; DB scaling & partitioning notes; small DB tuning reading.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260128@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260128T210000
+DTEND;TZID=Asia/Kolkata:20260128T220000
+DESCRIPTION:Medium LeetCode; background job patterns (Celery/RQ) & idempotency tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260129@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260129T210000
+DTEND;TZID=Asia/Kolkata:20260129T220000
+DESCRIPTION:Recap & timed LeetCode practice; final polish items.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260131@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260131T100000
+DTEND;TZID=Asia/Kolkata:20260131T120000
+DESCRIPTION:Final deploy checks & create Architecture Decision Records (ADRs); record walkthrough.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260201@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260201T100000
+DTEND;TZID=Asia/Kolkata:20260201T120000
+DESCRIPTION:Mock interviews (system design + coding); outreach to network with demo link.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260202@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260202T210000
+DTEND;TZID=Asia/Kolkata:20260202T220000
+DESCRIPTION:Medium LeetCode; resiliency patterns (circuit breaker, bulkhead).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260203@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260203T210000
+DTEND;TZID=Asia/Kolkata:20260203T220000
+DESCRIPTION:Medium LeetCode; tracing & distributed tracing basics; opentelemetry minimal.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260204@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260204T210000
+DTEND;TZID=Asia/Kolkata:20260204T220000
+DESCRIPTION:Medium LeetCode; finalize ADR docs in repo; fix tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260205@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260205T210000
+DTEND;TZID=Asia/Kolkata:20260205T220000
+DESCRIPTION:Timed LeetCode; follow up on applications & PR reviews.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260207@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260207T100000
+DTEND;TZID=Asia/Kolkata:20260207T120000
+DESCRIPTION:Two mock interviews; final polish to portfolio projects & READMEs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260208@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260208T100000
+DTEND;TZID=Asia/Kolkata:20260208T120000
+DESCRIPTION:Apply to roles; network outreach; schedule interviews.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260209@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260209T210000
+DTEND;TZID=Asia/Kolkata:20260209T220000
+DESCRIPTION:LeetCode review; FastAPI README & docs cleanup.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260210@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260210T210000
+DTEND;TZID=Asia/Kolkata:20260210T220000
+DESCRIPTION:Medium LeetCode; prepare interview talking points on scaling & tradeoffs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260211@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260211T210000
+DTEND;TZID=Asia/Kolkata:20260211T220000
+DESCRIPTION:Medium LeetCode; security recap and final tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260212@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260212T210000
+DTEND;TZID=Asia/Kolkata:20260212T220000
+DESCRIPTION:Recap week; LeetCode timed practice; final polish items.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260214@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260214T100000
+DTEND;TZID=Asia/Kolkata:20260214T120000
+DESCRIPTION:Mock system design interview; polish one-pagers & examples.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260215@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260215T100000
+DTEND;TZID=Asia/Kolkata:20260215T120000
+DESCRIPTION:Interview prep & targeted applications; mock interviews and feedback.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260216@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260216T210000
+DTEND;TZID=Asia/Kolkata:20260216T220000
+DESCRIPTION:Review weak topics; finalize README fixes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260217@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260217T210000
+DTEND;TZID=Asia/Kolkata:20260217T220000
+DESCRIPTION:Medium LeetCode; prepare 5-minute architecture explanation.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260218@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260218T210000
+DTEND;TZID=Asia/Kolkata:20260218T220000
+DESCRIPTION:Medium LeetCode; final readiness checklist (deploy link, tests, README).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260219@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260219T210000
+DTEND;TZID=Asia/Kolkata:20260219T220000
+DESCRIPTION:Recap & timed LeetCode; final polish items.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260221@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260221T100000
+DTEND;TZID=Asia/Kolkata:20260221T120000
+DESCRIPTION:Mock interviews & follow-ups; update portfolio.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260222@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260222T100000
+DTEND;TZID=Asia/Kolkata:20260222T120000
+DESCRIPTION:Network outreach; apply to roles; practice interview answers.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260223@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260223T210000
+DTEND;TZID=Asia/Kolkata:20260223T220000
+DESCRIPTION:Medium LeetCode; review architecture and tradeoffs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260224@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260224T210000
+DTEND;TZID=Asia/Kolkata:20260224T220000
+DESCRIPTION:Medium LeetCode; finalize metrics/logging/tracing documentation.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260225@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260225T210000
+DTEND;TZID=Asia/Kolkata:20260225T220000
+DESCRIPTION:Medium LeetCode; final security checks & token tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260226@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260226T210000
+DTEND;TZID=Asia/Kolkata:20260226T220000
+DESCRIPTION:Recap & plan adjustments based on interviews; LeetCode timed practice.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260228@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260228T100000
+DTEND;TZID=Asia/Kolkata:20260228T120000
+DESCRIPTION:Mock interviews; polish docs & one-pagers; apply & follow up.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260301@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260301T100000
+DTEND;TZID=Asia/Kolkata:20260301T120000
+DESCRIPTION:Networking & outreach; apply to roles; update portfolio.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260302@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260302T210000
+DTEND;TZID=Asia/Kolkata:20260302T220000
+DESCRIPTION:Medium LeetCode; recap design choices for interviews.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260303@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260303T210000
+DTEND;TZID=Asia/Kolkata:20260303T220000
+DESCRIPTION:Medium LeetCode; final readiness check (links, tests).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260304@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260304T210000
+DTEND;TZID=Asia/Kolkata:20260304T220000
+DESCRIPTION:Medium LeetCode; review metrics/tracing; finalize traces.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260305@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260305T210000
+DTEND;TZID=Asia/Kolkata:20260305T220000
+DESCRIPTION:Timed LeetCode; final polish items & push fixes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260307@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260307T100000
+DTEND;TZID=Asia/Kolkata:20260307T120000
+DESCRIPTION:Mock interviews; follow up; polish portfolio and READMEs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260308@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260308T100000
+DTEND;TZID=Asia/Kolkata:20260308T120000
+DESCRIPTION:Network & apply; schedule interviews; update README and links.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260309@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260309T210000
+DTEND;TZID=Asia/Kolkata:20260309T220000
+DESCRIPTION:LeetCode review; architecture recap & cleanups.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260310@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260310T210000
+DTEND;TZID=Asia/Kolkata:20260310T220000
+DESCRIPTION:Medium LeetCode; security recap & final tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260311@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260311T210000
+DTEND;TZID=Asia/Kolkata:20260311T220000
+DESCRIPTION:Medium LeetCode; final observability checks & tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260312@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260312T210000
+DTEND;TZID=Asia/Kolkata:20260312T220000
+DESCRIPTION:Recap & plan; timed LeetCode; final polish.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260314@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260314T100000
+DTEND;TZID=Asia/Kolkata:20260314T120000
+DESCRIPTION:Mock interviews and portfolio polish; apply & network.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260315@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260315T100000
+DTEND;TZID=Asia/Kolkata:20260315T120000
+DESCRIPTION:Networking & applying; update demos and README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260316@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260316T210000
+DTEND;TZID=Asia/Kolkata:20260316T220000
+DESCRIPTION:Medium LeetCode; final notes & small refactor.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260317@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260317T210000
+DTEND;TZID=Asia/Kolkata:20260317T220000
+DESCRIPTION:Medium LeetCode; finalize ADRs & tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260318@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260318T210000
+DTEND;TZID=Asia/Kolkata:20260318T220000
+DESCRIPTION:Medium LeetCode; prepare demo & talking points; push demo code.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260319@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260319T210000
+DTEND;TZID=Asia/Kolkata:20260319T220000
+DESCRIPTION:Timed LeetCode; final polish & push changes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260321@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260321T100000
+DTEND;TZID=Asia/Kolkata:20260321T120000
+DESCRIPTION:Final mock interviews & follow-ups; polish portfolio.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260322@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260322T100000
+DTEND;TZID=Asia/Kolkata:20260322T120000
+DESCRIPTION:Network & apply; update demo links and README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260323@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260323T210000
+DTEND;TZID=Asia/Kolkata:20260323T220000
+DESCRIPTION:LeetCode review; final readiness check for interviews.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260324@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260324T210000
+DTEND;TZID=Asia/Kolkata:20260324T220000
+DESCRIPTION:Medium LeetCode; recap scaling notes & tradeoffs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260325@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260325T210000
+DTEND;TZID=Asia/Kolkata:20260325T220000
+DESCRIPTION:Medium LeetCode; final observability recap.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260326@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260326T210000
+DTEND;TZID=Asia/Kolkata:20260326T220000
+DESCRIPTION:Recap week & plan next steps; LeetCode timed practice.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260328@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260328T100000
+DTEND;TZID=Asia/Kolkata:20260328T120000
+DESCRIPTION:Mock interviews & final portfolio polish; apply & network.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260329@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260329T100000
+DTEND;TZID=Asia/Kolkata:20260329T120000
+DESCRIPTION:Network outreach and applications; update README and demos.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260330@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260330T210000
+DTEND;TZID=Asia/Kolkata:20260330T220000
+DESCRIPTION:LeetCode review; final notes & talking points.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260331@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260331T210000
+DTEND;TZID=Asia/Kolkata:20260331T220000
+DESCRIPTION:Medium LeetCode; final ADR review & tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260401@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260401T210000
+DTEND;TZID=Asia/Kolkata:20260401T220000
+DESCRIPTION:Medium LeetCode; final demo prep & script.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260402@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260402T210000
+DTEND;TZID=Asia/Kolkata:20260402T220000
+DESCRIPTION:Timed LeetCode; final polish & push changes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260404@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260404T100000
+DTEND;TZID=Asia/Kolkata:20260404T120000
+DESCRIPTION:Final mock interviews & follow-ups; polish portfolio & READMEs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260405@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260405T100000
+DTEND;TZID=Asia/Kolkata:20260405T120000
+DESCRIPTION:Networking & applications; update demos and README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260406@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260406T210000
+DTEND;TZID=Asia/Kolkata:20260406T220000
+DESCRIPTION:LeetCode review; final readiness check.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260407@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260407T210000
+DTEND;TZID=Asia/Kolkata:20260407T220000
+DESCRIPTION:Medium LeetCode; recap scaling notes & tradeoffs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260408@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260408T210000
+DTEND;TZID=Asia/Kolkata:20260408T220000
+DESCRIPTION:Medium LeetCode; final observability recap.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260409@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260409T210000
+DTEND;TZID=Asia/Kolkata:20260409T220000
+DESCRIPTION:Recap week; timed LeetCode; final polish.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260411@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260411T100000
+DTEND;TZID=Asia/Kolkata:20260411T120000
+DESCRIPTION:Mock interviews and final portfolio polish; apply & network.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260412@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260412T100000
+DTEND;TZID=Asia/Kolkata:20260412T120000
+DESCRIPTION:Networking & applications; update demos and README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260413@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260413T210000
+DTEND;TZID=Asia/Kolkata:20260413T220000
+DESCRIPTION:LeetCode review; finalize notes & demos.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260414@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260414T210000
+DTEND;TZID=Asia/Kolkata:20260414T220000
+DESCRIPTION:Medium LeetCode; final ADR review.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260415@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260415T210000
+DTEND;TZID=Asia/Kolkata:20260415T220000
+DESCRIPTION:Medium LeetCode; demo practice & script.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260416@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260416T210000
+DTEND;TZID=Asia/Kolkata:20260416T220000
+DESCRIPTION:Timed LeetCode; final polish & push changes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260418@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260418T100000
+DTEND;TZID=Asia/Kolkata:20260418T120000
+DESCRIPTION:Final mock interviews & follow-ups; polish portfolio.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260419@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260419T100000
+DTEND;TZID=Asia/Kolkata:20260419T120000
+DESCRIPTION:Networking & applications; update demos & README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260420@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260420T210000
+DTEND;TZID=Asia/Kolkata:20260420T220000
+DESCRIPTION:LeetCode review; final readiness check.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260421@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260421T210000
+DTEND;TZID=Asia/Kolkata:20260421T220000
+DESCRIPTION:Medium LeetCode; recap scaling notes & tradeoffs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260422@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260422T210000
+DTEND;TZID=Asia/Kolkata:20260422T220000
+DESCRIPTION:Medium LeetCode; final observability & tests.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260423@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260423T210000
+DTEND;TZID=Asia/Kolkata:20260423T220000
+DESCRIPTION:Recap week; LeetCode timed practice; final polish.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260425@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Saturday)
+DTSTART;TZID=Asia/Kolkata:20260425T100000
+DTEND;TZID=Asia/Kolkata:20260425T120000
+DESCRIPTION:Final mock interviews; portfolio polish; apply & network.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260426@bshridhar
+SUMMARY:Tesseract — Weekend Deep (Sunday)
+DTSTART;TZID=Asia/Kolkata:20260426T100000
+DTEND;TZID=Asia/Kolkata:20260426T120000
+DESCRIPTION:Networking & applications; update demos and README.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260427@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260427T210000
+DTEND;TZID=Asia/Kolkata:20260427T220000
+DESCRIPTION:Final LeetCode review; write retrospective & next-steps doc.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260428@bshridhar
+SUMMARY:Tesseract — Study Session
+DTSTART;TZID=Asia/Kolkata:20260428T210000
+DTEND;TZID=Asia/Kolkata:20260428T220000
+DESCRIPTION:LeetCode wrap-up; finalize portfolio and repos.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-20260429@bshridhar
+SUMMARY:Tesseract — Final Recap & Plan Forward
+DTSTART;TZID=Asia/Kolkata:20260429T210000
+DTEND;TZID=Asia/Kolkata:20260429T220000
+DESCRIPTION:Final recap: summarize progress over 6 months, list next steps toward architect path (2-year plan), quick timed LeetCode problem, finalize docs.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20251226@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20251226T210000
+DTEND;TZID=Asia/Kolkata:20251226T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python). Use Two Sum and follow FastAPI quickstart: https://fastapi.tiangolo.com/tutorial/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260102@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260102T210000
+DTEND;TZID=Asia/Kolkata:20260102T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260109@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260109T210000
+DTEND;TZID=Asia/Kolkata:20260109T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260116@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260116T210000
+DTEND;TZID=Asia/Kolkata:20260116T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260123@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260123T210000
+DTEND;TZID=Asia/Kolkata:20260123T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260130@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260130T210000
+DTEND;TZID=Asia/Kolkata:20260130T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260206@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260206T210000
+DTEND;TZID=Asia/Kolkata:20260206T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260213@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260213T210000
+DTEND;TZID=Asia/Kolkata:20260213T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260220@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260220T210000
+DTEND;TZID=Asia/Kolkata:20260220T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260227@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260227T210000
+DTEND;TZID=Asia/Kolkata:20260227T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260306@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260306T210000
+DTEND;TZID=Asia/Kolkata:20260306T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260313@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260313T210000
+DTEND;TZID=Asia/Kolkata:20260313T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260320@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260320T210000
+DTEND;TZID=Asia/Kolkata:20260320T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260327@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260327T210000
+DTEND;TZID=Asia/Kolkata:20260327T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260403@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260403T210000
+DTEND;TZID=Asia/Kolkata:20260403T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260410@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260410T210000
+DTEND;TZID=Asia/Kolkata:20260410T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260417@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260417T210000
+DTEND;TZID=Asia/Kolkata:20260417T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tesseract-friday-20260424@bshridhar
+SUMMARY:Tesseract — Study Session (Friday fix)
+DTSTART;TZID=Asia/Kolkata:20260424T210000
+DTEND;TZID=Asia/Kolkata:20260424T220000
+DESCRIPTION:LeetCode + FastAPI + Python study (40m LeetCode, 20m FastAPI/Python).
+END:VEVENT
+
+END:VCALENDAR
