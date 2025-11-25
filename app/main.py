@@ -1,28 +1,37 @@
 # ...existing code...
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
-from app.algorithms import day1_20251124
+from app.config import APP_TITLE, APP_VERSION, APP_DESCRIPTION, DOCS_URL, REDOC_URL
+from app.algorithms.day1_20251124 import router as day1_router
+from app.algorithms.day2_20251124 import router as day2_router
+from app.algorithms.day3_20251125 import router as day3_router
 
-# Create app without redoc initially
+# Create FastAPI application
 app = FastAPI(
-    title="Two Sum API",
-    version="0.1.0",
-    docs_url="/docs",
-    redoc_url=None,  # Disable default redoc
+    title=APP_TITLE,
+    version=APP_VERSION,
+    description=APP_DESCRIPTION,
+    docs_url=DOCS_URL,
+    redoc_url=REDOC_URL,  # Disable default redoc (using custom below)
 )
 
 # mount static files FIRST
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
-# Now add custom redoc endpoint
+# Include routers
+app.include_router(day1_router)
+app.include_router(day2_router)
+app.include_router(day3_router)
+
+# Custom redoc endpoint
 @app.get("/redoc", include_in_schema=False)
 async def redoc_html():
     return HTMLResponse("""
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Two Sum API - ReDoc</title>
+        <title>Algorithm Practice API - ReDoc</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700" rel="stylesheet">
@@ -39,12 +48,3 @@ async def redoc_html():
     </body>
     </html>
     """)
-
-@app.post("/api/two-sum", response_model=day1_20251124.TwoSumResponse)
-def api_two_sum(payload: day1_20251124.TwoSumRequest):
-    nums = payload.nums
-    target = payload.target
-    result = day1_20251124.two_sum(nums, target)
-    if result is None:
-        raise HTTPException(status_code=404, detail="No two sum solution found")
-    return {"indices": result}
