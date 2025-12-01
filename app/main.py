@@ -6,6 +6,8 @@ from app.config import APP_TITLE, APP_VERSION, APP_DESCRIPTION, DOCS_URL, REDOC_
 from app.algorithms.day1_20251124 import router as day1_router
 from app.algorithms.day2_20251124 import router as day2_router
 from app.algorithms.day3_20251125 import router as day3_router
+from app.algorithms.day4_20251130 import router as day4_router
+from app.algorithms.day5_20251201 import router as day5_router
 
 # Create FastAPI application
 app = FastAPI(
