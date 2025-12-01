@@ -1,5 +1,5 @@
-from .algorithm import intersection
-from .schemas import IntersectionRequest, IntersectionResponse
+from .algorithm import contains_duplicate
+from .schemas import ContainsDuplicateRequest, ContainsDuplicateResponse
 from .router import router
 
-__all__ = ["intersection", "IntersectionRequest", "IntersectionResponse", "router"]
+__all__ = ["contains_duplicate", "ContainsDuplicateRequest", "ContainsDuplicateResponse", "router"]

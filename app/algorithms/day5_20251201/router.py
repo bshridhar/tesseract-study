@@ -1,21 +1,32 @@
-"""FastAPI router for Two Sum API endpoint"""
-from fastapi import APIRouter, HTTPException
+"""FastAPI router for Move Zeroes API endpoint"""
+from fastapi import APIRouter
+from app.algorithms.day5_20251201.algorithm import moveZeroes
+from app.algorithms.day5_20251201.schemas import MoveZeroesRequest, MoveZeroesResponse
 from app.config import API_PREFIX
-from . import two_sum, TwoSumRequest, TwoSumResponse
 
 router = APIRouter(
     prefix=API_PREFIX,
-    tags=["Two Sum - Day 1"]
+    tags=["Move Zeroes - Day 5"]
 )
 
-@router.post("/two-sum", response_model=TwoSumResponse)
-def api_two_sum(payload: TwoSumRequest):
+
+@router.post("/move-zeroes", response_model=MoveZeroesResponse)
+def api_move_zeroes(payload: MoveZeroesRequest):
     """
-    Find two numbers in an array that add up to a target value.
+    Move all zeroes in an array to the end while maintaining the relative order of non-zero elements.
     
-    Returns the indices of the two numbers.
+    Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+    Note that you must do this in-place without making a copy of the array.
+    
+    **Example:**
+    - Input: nums = [0,1,0,3,12]
+    - Output: [1,3,12,0,0]
+    
+    **Complexity:**
+    - Time: O(n) where n is the length of the array
+    - Space: O(1) as we modify the array in-place
     """
-    result = two_sum(payload.nums, payload.target)
-    if result is None:
-        raise HTTPException(status_code=404, detail="No two sum solution found")
-    return {"indices": result}
+    # Create a copy since we need to return the result
+    nums_copy = payload.nums.copy()
+    moveZeroes(nums_copy)
+    return {"result": nums_copy}

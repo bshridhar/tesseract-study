@@ -1,5 +1,5 @@
-from .algorithm import two_sum
-from .schemas import TwoSumRequest, TwoSumResponse
+from .algorithm import moveZeroes
+from .schemas import MoveZeroesRequest, MoveZeroesResponse
 from .router import router
 
-__all__ = ["two_sum", "TwoSumRequest", "TwoSumResponse", "router"]
+__all__ = ["moveZeroes", "MoveZeroesRequest", "MoveZeroesResponse", "router"]
