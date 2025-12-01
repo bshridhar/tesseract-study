@@ -23,6 +23,8 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 app.include_router(day1_router)
 app.include_router(day2_router)
 app.include_router(day3_router)
+app.include_router(day4_router)
+app.include_router(day5_router)
 
 # Custom redoc endpoint
 @app.get("/redoc", include_in_schema=False)
